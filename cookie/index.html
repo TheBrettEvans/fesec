@@ -14,6 +14,13 @@
     <input type="password" name="password" id="password">
     <button type="submit">Login</button>
   </form>
+  <select><script>
+
+    document.write("<OPTION value=1>"+decodeURIComponent(document.location.href.substring(document.location.href.indexOf("default=")+8))+"</OPTION>");
+    
+    document.write("<OPTION value=2>English</OPTION>");
+    
+    </script></select>
   <pre></pre>
   <button id="fetch-btn">fetch</button>
   <script>
